@@ -101,8 +101,8 @@ const SecureResume = () => {
             {/* Clean Premium Download Button */}
             <div className="pt-1">
               <a
-                href="/hacker_avatar.png" // placeholder resume download link, or mock download
-                download="Sahil_Kawale_Resume.pdf"
+                href="/cybersecurity resume.pdf"
+                download="Sahil_Kawale_Cybersecurity_Resume.pdf"
                 className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-semibold tracking-wide text-xs sm:text-sm rounded-xl transition-all duration-200 shadow-md shadow-indigo-600/10 hover:shadow-indigo-500/20 active:scale-95 cursor-pointer"
               >
                 <Download className="w-4 h-4" />
