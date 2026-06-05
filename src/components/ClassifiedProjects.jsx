@@ -33,7 +33,7 @@ const ClassifiedProjects = () => {
         "Designed stateless SYN packet crafting protocols for passive audits."
       ],
       tech: ["Python", "Socket Programming", "TCP/IP Suite", "Security Recon"],
-      github: "https://github.com/Divoke911",
+      github: "https://github.com/Divoke911/Shadow-Scanner",
       demo: "#"
     },
     {
