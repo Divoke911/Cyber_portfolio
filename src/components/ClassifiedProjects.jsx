@@ -49,7 +49,7 @@ const ClassifiedProjects = () => {
         "Engineered RESTful endpoints following OWASP backend guidelines."
       ],
       tech: ["Java", "Spring Boot", "MySQL", "JWT Auth", "Spring Security"],
-      github: "https://github.com/Divoke911",
+      github: "https://github.com/Divoke911/Ecommerce-Application",
       demo: "#"
     }
   ];
