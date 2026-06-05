@@ -18,8 +18,6 @@ const ClassifiedProjects = () => {
         "Developed custom mitigation playbooks for corporate local subnets."
       ],
       tech: ["Kali Linux", "Bettercap", "Wireshark", "Network Auditing"],
-      github: "https://github.com/Divoke911",
-      demo: "#",
       paper: "https://www.ijpub.org/ijvra/viewpaperforall.php?paper=IJVRA2604266"
     },
     {
@@ -139,15 +137,17 @@ const ClassifiedProjects = () => {
 
               {/* Action buttons Links */}
               <div className="flex flex-col gap-2 mt-5 pt-4 border-t border-white/5 text-xs font-mono font-semibold">
-                <a
-                  href={op.github}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="w-full flex items-center justify-center gap-1.5 px-3.5 py-2.5 bg-white/[0.03] hover:bg-white/[0.08] border border-white/5 hover:border-white/10 text-slate-300 hover:text-white rounded-lg transition-all duration-200"
-                >
-                  <Github className="w-3.5 h-3.5 text-slate-400 group-hover:text-white" />
-                  View Repository
-                </a>
+                {op.github && (
+                  <a
+                    href={op.github}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="w-full flex items-center justify-center gap-1.5 px-3.5 py-2.5 bg-white/[0.03] hover:bg-white/[0.08] border border-white/5 hover:border-white/10 text-slate-300 hover:text-white rounded-lg transition-all duration-200"
+                  >
+                    <Github className="w-3.5 h-3.5 text-slate-400 group-hover:text-white" />
+                    View Repository
+                  </a>
+                )}
                 {op.paper && (
                   <a
                     href={op.paper}
