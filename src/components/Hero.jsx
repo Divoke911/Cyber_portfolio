@@ -105,7 +105,7 @@ const Hero = () => {
             </button>
 
             <a
-              href="/cybersecurity resume.pdf"
+              href="/Sahil Kawale cybersecurity resume.pdf"
               download="Sahil_Kawale_Cybersecurity_Resume.pdf"
               className="px-6 py-3 bg-white/[0.03] border border-white/10 text-slate-200 hover:text-white hover:bg-white/[0.07] hover:border-white/20 font-semibold text-xs sm:text-sm tracking-wide rounded-lg transition-all duration-200 flex items-center gap-2 cursor-pointer active:scale-95"
             >

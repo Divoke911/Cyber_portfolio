@@ -7,7 +7,7 @@ const CertsClearance = () => {
     {
       id: "CERT-IBM",
       title: "IBM Cybersecurity Fundamentals",
-      issuer: "IBM Security Core",
+      issuer: "IBM",
       date: "Dec 2024",
       level: "Fundamentals",
       badgeColor: "bg-sky-500/5 border-sky-500/10 text-sky-400"
@@ -15,7 +15,7 @@ const CertsClearance = () => {
     {
       id: "CERT-TH",
       title: "Threat Intelligence and Hunting",
-      issuer: "Infosec Research",
+      issuer: "IBM",
       date: "Mar 2025",
       level: "Threat Hunting",
       badgeColor: "bg-indigo-500/5 border-indigo-500/10 text-indigo-400"
@@ -23,7 +23,7 @@ const CertsClearance = () => {
     {
       id: "CERT-TATA",
       title: "Tata Cybersecurity Simulation",
-      issuer: "TATA Infotech Labs",
+      issuer: "TATA FORAGE",
       date: "Oct 2024",
       level: "Simulation",
       badgeColor: "bg-emerald-500/5 border-emerald-500/10 text-emerald-400"
@@ -31,7 +31,7 @@ const CertsClearance = () => {
     {
       id: "CERT-MALWARE",
       title: "Malware Detection & Prevention",
-      issuer: "OpenDefense Institute",
+      issuer: "UDEMY",
       date: "Jan 2025",
       level: "Malware Defense",
       badgeColor: "bg-rose-500/5 border-rose-500/10 text-rose-400"
@@ -39,7 +39,7 @@ const CertsClearance = () => {
     {
       id: "CERT-ETHICAL",
       title: "Ethical Hacking Methodology",
-      issuer: "HackerOne Academy",
+      issuer: "UDEMY",
       date: "Feb 2025",
       level: "Ethical Methods",
       badgeColor: "bg-slate-400/5 border-slate-500/10 text-slate-400"

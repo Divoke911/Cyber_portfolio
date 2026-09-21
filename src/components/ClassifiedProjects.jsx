@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Shield, Cpu, ExternalLink, CheckCircle2 } from 'lucide-react';
+import { Shield, Cpu, ExternalLink, CheckCircle2, BookOpen } from 'lucide-react';
 import { Github } from './SocialIcons';
 
 const ClassifiedProjects = () => {
@@ -18,8 +18,7 @@ const ClassifiedProjects = () => {
         "Developed custom mitigation playbooks for corporate local subnets."
       ],
       tech: ["Kali Linux", "Bettercap", "Wireshark", "Network Auditing"],
-      github: "https://github.com/Divoke911",
-      demo: "#"
+      paper: "https://www.ijpub.org/ijvra/viewpaperforall.php?paper=IJVRA2604266"
     },
     {
       id: "PROJECT-SCANNER",
@@ -34,7 +33,7 @@ const ClassifiedProjects = () => {
         "Designed stateless SYN packet crafting protocols for passive audits."
       ],
       tech: ["Python", "Socket Programming", "TCP/IP Suite", "Security Recon"],
-      github: "https://github.com/Divoke911",
+      github: "https://github.com/Divoke911/Shadow-Scanner",
       demo: "#"
     },
     {
@@ -50,7 +49,7 @@ const ClassifiedProjects = () => {
         "Engineered RESTful endpoints following OWASP backend guidelines."
       ],
       tech: ["Java", "Spring Boot", "MySQL", "JWT Auth", "Spring Security"],
-      github: "https://github.com/Divoke911",
+      github: "https://github.com/Divoke911/Ecommerce-Application",
       demo: "#"
     }
   ];
@@ -137,16 +136,29 @@ const ClassifiedProjects = () => {
               </div>
 
               {/* Action buttons Links */}
-              <div className="flex mt-5 pt-4 border-t border-white/5 text-xs font-mono font-semibold">
-                <a
-                  href={op.github}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="w-full flex items-center justify-center gap-1.5 px-3.5 py-2.5 bg-white/[0.03] hover:bg-white/[0.08] border border-white/5 hover:border-white/10 text-slate-300 hover:text-white rounded-lg transition-all duration-200"
-                >
-                  <Github className="w-3.5 h-3.5 text-slate-400 group-hover:text-white" />
-                  View Repository
-                </a>
+              <div className="flex flex-col gap-2 mt-5 pt-4 border-t border-white/5 text-xs font-mono font-semibold">
+                {op.github && (
+                  <a
+                    href={op.github}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="w-full flex items-center justify-center gap-1.5 px-3.5 py-2.5 bg-white/[0.03] hover:bg-white/[0.08] border border-white/5 hover:border-white/10 text-slate-300 hover:text-white rounded-lg transition-all duration-200"
+                  >
+                    <Github className="w-3.5 h-3.5 text-slate-400 group-hover:text-white" />
+                    View Repository
+                  </a>
+                )}
+                {op.paper && (
+                  <a
+                    href={op.paper}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="w-full flex items-center justify-center gap-1.5 px-3.5 py-2.5 bg-indigo-500/10 hover:bg-indigo-500/20 border border-indigo-500/20 hover:border-indigo-500/40 text-indigo-300 hover:text-indigo-100 rounded-lg transition-all duration-200"
+                  >
+                    <BookOpen className="w-3.5 h-3.5" />
+                    Research Paper
+                  </a>
+                )}
               </div>
             </div>
 
